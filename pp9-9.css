@@ -1,0 +1,19 @@
+table{
+    padding: 20px;
+    margin: 100px auto;
+    background-color: rgb(115, 174, 208);
+}
+#id1{
+    background-color: black;
+    color:white;
+    text-align:right;
+}
+#id2{
+    background-color: antiquewhite;
+}
+#id3{
+    background-color: chocolate;
+}
+tr{
+    background-color: white;
+}

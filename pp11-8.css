@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+
+}
+h1{
+    text-align: center;
+}
+.nav{
+    text-align: center;
+   
+    
+}
+h3{
+    display: inline;
+    padding: 20px;
+    
+}
+h2{
+    
+    text-align: center;
+}
+form{
+    display: block;
+}
+p{
+    padding: 50px;
+    text-align: justify;
+}

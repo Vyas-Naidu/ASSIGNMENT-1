@@ -1,0 +1,12 @@
+table{
+    text-align: center;
+    width: 100%;    
+}
+ tr:nth-child(odd) {
+        background-color: pink;
+        color:white;
+    }
+ tr:nth-child(even){
+    background-color: chocolate;
+
+ }
