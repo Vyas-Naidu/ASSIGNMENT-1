@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Registation Form</title>
+    <style>
+        h3{
+            text-align: center;
+            color:blue;
+        }
+        table{
+            
+            border: dotted black;
+            width: 550px;            
+            margin: 10px auto;
+            padding: 10px;
+            color: white;
+           background:linear-gradient(360deg, pink, rgb(50, 192, 249));
+           font-size: 14px;
+        }
+        td{
+            padding: 5px;
+            font-family: 'Times New Roman';
+            font-weight: bold;
+        }
+            input[type="text"],
+            input[type="email"],
+            input[type="date"],
+            input[type="number"],
+        textarea {
+            width: 180px;
+            font-size: 13px;
+        }
+        textarea{
+            height: 60px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <h3>Student Registation Form using Table in HTML</h3>
+    <form>
+      <table>
+        <tr>
+          <!--first name-->
+          <td><label for="fname">First Name: </label></td>
+          <td><input type="text" name="fname" ></td>
+          <td><span>(Max 50 characters allowed)</span></td>
+        </tr>
+        <tr>
+          <!--last name-->
+          <td><label for="lname"> Last Name: </label></td>
+          <td><input type="text" name="lname" /></td>
+          <td><span>(Max 50 characters allowed)</span></td>
+        </tr>
+        <tr>
+          <!--Email-->
+          <td><label for="email">Email ID:</label></td>
+          <td><input type="email" name="email" /></td>
+          <td><span>(Enter valid email)</span></td>
+        </tr>
+        <tr>
+          <!--Mobile no-->
+          <td><label for="phno">Mobile Number</label></td>
+          <td><input type="text"  name="phno" maxlength="10" /></td>
+          <td><span>(10 digits only)</span></td>
+        </tr>
+        <tr>
+          <!--gender-->
+          <td><label for="gender">Gender</label></td>
+          <td><input type="radio" name="gender"/> Male
+             <input type="radio" name="gender" /> Female</td>
+        </tr>
+        <tr>
+          <!--DOB-->
+          <td><label for="dob"> Date of Birth</label></td>
+          <td><input type="date" name="dob"></td>
+        </tr>
+        <tr>
+          <!--address-->
+          <td><label for="address">Address</label></td>
+          <td><textarea name="Address"></textarea></td>
+        </tr>
+        <tr>
+          <!--city-->
+          <td><label for="city">City</label></td>
+          <td><input type="text" name="city" /></td>
+          <td><span>(Max 50 characters allowed)</span></td>
+        </tr>
+        <tr>
+          <!--pincode-->
+          <td><label for="pincode">Pin Code</label></td>
+          <td><input type="text" maxlength="6"/></td>
+          <td><span>(Max 6 characters allowed)</span></td>
+        </tr>
+        <tr>
+          <!--Country-->
+          <td><label for="country">Country</label></td>
+          <td><input type="text" name="country"></td>
+        </tr>
+        <tr>
+          <!--hobbies-->
+          <td><label for="hobby">Hobbies</label></td>
+          <td>
+            <input type="checkbox" />Drawing <input type="checkbox" />Singing
+            <input type="checkbox" />Dancing <br><input type="checkbox" />Playing <input type="checkbox">Others <input type="text" placeholder="Ex. Teaching">
+          </td>
+          <td><span>(Max 50 characters allowed)</span></td>
+        </tr>
+        <tr>
+            <!--qualification-->
+            <td><label for="qualify">Qualification</label></td>
+            <td> <input type="radio" name="Qualify" >High School(10th) <br>
+             <input type="radio" name="Qualify" >Higher School(12th) <br>
+            <input type="radio" name="Qualify" >Graduation <br>
+            <input type="radio" name="Qualify" >Post Graduation <br>
+            <input type="radio" name="Qualify" > PHD
+            </td>
+            </tr>
+            <tr>
+                <!--courses-->
+                <td><label for="course">Course Applied  For</label></td>
+                <td> 
+                    <input type="radio" name="course" >BCA(Bachelor of Computer Applications) <br>
+                    <input type="radio" name="course">B.Com(Bachelor of Commernce) <br>
+                    <input type="radio" name="course">B.Sc (Bachelor of Science) <br>
+                    <input type="radio" name="course">BA (bachelor of Arts) <br>
+                    <input type="radio" name="course">MCA (Master of Computer Applications) <br>
+                    <input type="radio" name="course">M.Com(Master of Commerce) <br>
+                    <input type="radio" name="course">M.Sc(Master of Science) <br>
+                    <input type="radio" name="course">MA(Master of Arts)  
+
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" >
+                <input type="reset" ></td>
+            </tr>
+      </table>
+    </form>
+  </body>
+</html>
